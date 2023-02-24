@@ -1,0 +1,43 @@
+.places__website {
+  display: grid;
+  min-width: 456px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  align-self: end;
+  justify-self: start;
+  color: white;
+}
+
+.places__website:hover {
+  color: rgba(180, 180, 180, 0.800);
+  transition-duration: 0.5s;
+  opacity: 0.5;
+}
+
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    min-width: calc(288/320*100%);
+    margin-left: calc(16/320*100%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__website {
+   min-width: calc(352/768*100%);
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .places__website {
+    min-width: calc(456/1024*100%);
+  }
+}
+
+
+
+

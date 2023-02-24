@@ -1,0 +1,36 @@
+.places__url {
+  display: grid;
+  width: 456px;
+  height: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-bottom: 12px;
+  align-self: end;
+  color: #AAAAAA;
+}
+
+
+@media screen and (max-width: 767px) {
+  .places__url {
+    width: calc(288/320*100%);
+    margin-left: calc(16/320*100%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__url {
+   width: calc(352/768*100%);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__url {
+    width: calc(456/1024*100%);
+  }
+}
+
+
+

@@ -1,0 +1,15 @@
+.places__address {
+  align-self: end;
+  justify-self: start;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .places__address {
+     margin-left: calc(16/320*100%);
+
+  }
+}

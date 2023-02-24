@@ -1,0 +1,36 @@
+.intro__quote {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.08px;
+  margin: 0;
+  max-width: calc(690/984*100%);
+  padding-top: calc(40/984*100%);
+}
+
+@media screen and (max-width: 767px) {
+  .intro__quote {
+    padding-top: calc(40/320*100%);
+    font-size: calc(16/320*100vw);
+    line-height: calc(26.08/320*100vw);
+    max-width: calc(288/320*100%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__quote {
+    padding-top: calc(40/768*100%);
+    font-size: calc(16/768*100vw);
+    line-height: calc(26.08/768*100vw);
+    max-width: calc(720/768*100%);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__quote {
+    padding-top: calc(40/928*100%);
+    font-size: calc(16/1024*100vw);
+    line-height: calc(26.08/1024*100vw);
+    max-width: calc(690/1024*100%);
+
+  }
+}

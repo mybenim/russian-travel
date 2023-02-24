@@ -1,0 +1,28 @@
+.page__intro {
+  width: calc(984/1280*100%);
+  color: white;
+  margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .page__intro {
+    width: calc(288/320*100%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page__intro {
+   width: calc(720/768*100%);
+
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .page__intro {
+    width: calc(928/1024*100%);
+  }
+}
+
+
+
+
