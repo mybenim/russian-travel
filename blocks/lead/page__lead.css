@@ -1,5 +1,5 @@
 .page__lead {
-  display:flex ;
+  display:flex;
   width: calc(984/1280*100%);
   color: white;
   padding-top: calc(56/1280*100%);

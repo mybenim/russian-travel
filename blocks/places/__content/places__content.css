@@ -1,6 +1,5 @@
 .places__content {
   display: flex;
-  width: 100%;
   flex-direction: column;
   width: calc(984/1280*100%);
   margin: auto;
