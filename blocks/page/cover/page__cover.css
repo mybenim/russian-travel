@@ -1,27 +1,30 @@
 .page__cover {
-  margin: auto;
   padding-top: calc(92/1280*100%);
   width: calc(1184/1280*100%);
+  margin: 0 auto;
 }
 
+@media screen and (max-width: 1279px) {
+  .page__cover {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .page__cover {
-    width: 100%;
     padding-top: calc(66/320*100%);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .page__cover {
-    width: 100%;
     padding-top: calc(90/768*100%);
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page__cover {
-    width: 100%;
     padding-top: calc(92/1024*100%);
   }
 }
+
