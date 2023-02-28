@@ -3,8 +3,3 @@
   width: 100%;
   padding-top: calc(64/1280*100%);
 }
-
-@media screen and (max-width: 767px) {
-  .lead__imade {
-    padding-top: calc(40/320*100%);
-  }
