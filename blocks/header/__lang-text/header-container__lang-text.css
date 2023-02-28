@@ -1,4 +1,4 @@
-.header__lang-text {
+/*.header-container__lang-text {
   display: inline;
   text-align: right;
   text-decoration: none;
@@ -8,33 +8,33 @@
   color: white;
 }
 
-.header__lang-text:hover {
+.header-container__lang-text:hover {
   color: rgba(180, 180, 180, 0.800);
   opacity: 0.5;
 }
 
 
 @media screen and (max-width: 767px) {
-  .header__lang-text {
+  .header-container__lang-text {
     font-size: calc(18/320*100vw);
     line-height: calc(20/320*100vw);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .header__lang-text {
+  .header-container__lang-text {
     font-size: calc(24/768*100vw);
     line-height: calc(28/768*100vw);
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header__lang-text {
+  .header-container__lang-text {
     font-size: calc(24/1024*100vw);
     line-height: calc(28/1024*100vw);
   }
 }
-
+ */
 
 
 

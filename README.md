@@ -36,4 +36,5 @@ ________________________________________________________________________________
 ```
 <h1>Я изучаю html и css</h1>
 
-git@github.com:mybenim/russian-travel.git
+
+https://mybenim.github.io/russian-travel/

@@ -3,10 +3,23 @@
   height: calc(52/1280*100%);
 }
 
-
 @media screen and (max-width: 767px) {
   .header__logo {
     width: calc(142/320*100%);
     height: calc(42/320*100%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__logo {
+     width: calc(176/768*100%);
+     height: calc(52/768*100%);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header__logo {
+     width: calc(176/1024*100%);
+     height: calc(52/1024*100%);
   }
 }

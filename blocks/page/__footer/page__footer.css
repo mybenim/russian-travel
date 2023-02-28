@@ -11,8 +11,7 @@
 @media screen and (max-width: 767px) {
   .page__footer {
     width: calc(186/320*100%);
-    height: calc(310/320*100%);
-    margin: 18px 92px 118px 24px;
+    margin: 0px 118px 24px 16px;
     flex-direction: column;
     padding-top: calc(64/320*100%);
   }

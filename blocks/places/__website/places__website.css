@@ -1,6 +1,5 @@
 .places__website {
   max-width: 100%;
-  height: 22px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -9,7 +8,6 @@
   justify-self: start;
   color: white;
 }
-
 
 @media screen and (max-width: 767px) {
   .places__website {
@@ -25,7 +23,6 @@
   }
 }
 
-
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__website {
     font-size: calc(18/1024*100vw);
@@ -33,10 +30,7 @@
   }
 }
 
-
 .places__website:hover {
-  color: rgba(180, 180, 180, 0.800);
-  transition-duration: 0.5s;
   opacity: 0.5;
 }
 

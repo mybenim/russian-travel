@@ -12,7 +12,7 @@
 @media screen and (max-width: 767px) {
   .page__header {
     min-width: calc(288/320*100%);
-    padding-top: calc(28/320*100%);
+    padding-top: calc(16/320*100%);
   }
 }
 

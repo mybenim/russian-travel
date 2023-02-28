@@ -12,7 +12,7 @@
     padding-top: calc(40/320*100%);
     font-size: calc(16/320*100vw);
     line-height: calc(26.08/320*100vw);
-    max-width: calc(288/320*100%);
+    max-width: calc(295/320*100%);
   }
 }
 
@@ -21,7 +21,7 @@
     padding-top: calc(40/768*100%);
     font-size: calc(16/768*100vw);
     line-height: calc(26.08/768*100vw);
-    max-width: calc(720/768*100%);
+    max-width: calc(760/768*100%);
   }
 }
 
@@ -29,7 +29,7 @@
   .intro__quote {
     padding-top: calc(40/928*100%);
     font-size: calc(16/1024*100vw);
-    line-height: calc(26.08/1024*100vw);
-    max-width: calc(690/1024*100%);
+    line-height: calc(26.08/1 024*100vw);
+    max-width: calc(690/984*100%);
   }
 }

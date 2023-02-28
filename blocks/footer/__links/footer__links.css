@@ -4,6 +4,12 @@
 
 @media screen and (max-width: 767px) {
   .footer__links {
-    margin: 0 0 32px;
+    margin-bottom: 32px;
   }
 }
+
+.footer__links:last-of-type {
+   margin-bottom: 0;
+}
+
+

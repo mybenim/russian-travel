@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__subtitle {
-    width: calc(640/768*100%);
+    max-width: calc(640/768*100%);
     font-size: calc(30/768*100vw);
     line-height: calc(36/768*100vw);
     padding-top: calc(32/768*100%);

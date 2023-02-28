@@ -2,14 +2,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  margin-right: 18px;
   text-decoration: none;
   color: white;
 }
 
 .footer__link:hover {
-  color: wheat;
-  background-color: #241300fd;
   opacity: 0.5;
 }
 

@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 767px) {
   .page__cover {
-    padding-top: calc(66/320*100%);
+     padding: 0;
+     margin-top: calc(66/320*100%);
   }
 }
 
