@@ -1,5 +1,10 @@
 .lead__imade {
   margin: 0;
   width: 100%;
-  padding-top: 64px;
+  padding-top: calc(64/1280*100%);
 }
+
+@media screen and (max-width: 767px) {
+  .lead__lead-polka {
+    padding-top: calc(40/320*100%);
+  }

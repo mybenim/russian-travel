@@ -1,10 +1,6 @@
 .lead__lead-polka {
   display: block;
   width: 100%;
-  padding-top: calc(64/1280*100);
+  margin: 0;
+  padding: 0;
 }
-
-@media screen and (max-width: 767px) {
-  .lead__lead-polka {
-    padding-top: calc(40/320*100%);
-  }
