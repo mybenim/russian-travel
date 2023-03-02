@@ -5,8 +5,8 @@
   margin-bottom: calc(80/1280*100%);
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-  "places__title places__url"
-  "places__image places__text";
+  "places__title" "places__url"
+  "places__image" "places__text";
 }
 
 @media screen and (max-width: 767px) {

@@ -2,6 +2,11 @@
   margin-right: 18px;
 }
 
+.footer__links:last-of-type {
+   margin-right: 0;
+}
+
+
 @media screen and (max-width: 767px) {
   .footer__links {
     margin-bottom: 32px;
