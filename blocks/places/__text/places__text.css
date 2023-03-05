@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 767px) {
   .places__text {
+    max-width: calc(288/320*100%);
     font-size: calc(16/320*100vw);
     line-height: calc(26.08/320*100vw);
     margin-left: calc(16/320*100%);

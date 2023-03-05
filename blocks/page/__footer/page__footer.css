@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 767px) {
   .page__footer {
-    min-width: calc(186/320*100%);
+    min-width: calc(186/288*100%);
     margin-left: 16px;
     padding-top: calc(64/320*100%);
     flex-direction: column;

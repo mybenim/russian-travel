@@ -1,39 +1,37 @@
 .intro__quote {
+  align-self: flex-start;
   font-weight: 400;
   font-size: 16px;
   line-height: 26.08px;
   max-width: calc(690/984*100%);
-  padding-top: calc(40/1280*100%);
-  padding-left: calc(148/984*100%);
-  margin: 0;
+  margin: 0 0 calc(33/984*100%) 0;
 }
 
 @media screen and (max-width: 767px) {
   .intro__quote {
-    padding-top: calc(40/320*100%);
-    padding-left: calc(16/288*100%);;
+    margin-left: calc(16/320*100%);
     font-size: calc(16/320*100vw);
     line-height: calc(26.08/320*100vw);
     max-width: calc(288/320*100%);
+    margin-bottom: calc(34/320*100%);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__quote {
-    padding-top: calc(40/768*100%);
-    padding-left: calc(24/768*100%);
+    margin-left: calc(24/768*100%);
     font-size: calc(16/768*100vw);
     line-height: calc(26.08/768*100vw);
-    max-width: calc(760/768*100%);
+    max-width: calc(720/768*100%);
+    margin-bottom: calc(33/768*100%);
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__quote {
-    padding-top: calc(40/1024*100%);
-    padding-left: calc(48/768*100%);
     font-size: calc(16/1024*100vw);
     line-height: calc(26.08/1024*100vw);
     max-width: calc(690/928*100%);
+    margin-bottom: calc(33/928*100%);
   }
 }

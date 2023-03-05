@@ -1,7 +1,9 @@
 .page__intro {
+  display: flex;
+  flex-direction: column;
   width: calc(984/1280*100%);
   color: white;
-  margin-right: 0;
+  margin: 0 auto;
   padding-top: calc(92/1280*100%);
 }
 
@@ -14,9 +16,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .page__intro {
-   width: calc(720/768*100%);
+   width: 100%;
    padding-top: calc(88/768*100%);
-
   }
 }
 
