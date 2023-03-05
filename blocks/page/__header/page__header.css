@@ -7,10 +7,11 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
-  .page__header {
-    width: calc(288/320*100%);
-    padding-top: calc(16/320*100%);
+@media screen and (min-width: 767px) {
+.page__header {
+   width: calc(228/320*100%);
+   padding-top: calc(16/320*100%);
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
