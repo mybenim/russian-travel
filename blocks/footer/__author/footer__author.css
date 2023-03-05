@@ -1,25 +1,30 @@
 .footer__author {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1px;
+  line-height: 16px;
   color: white;
+  margin: 0;
+
 }
 
 @media screen and (max-width: 767px) {
   .footer__author {
-    margin-top: 48px;
+    padding-top: 48px;
     font-size: calc(14/320*100vw);
+    line-height: calc(14/320*100vw);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer__author {
    font-size: calc(14/768*100vw);
+   line-height: calc(16/768*100vw);
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer__author {
     font-size: calc(14/1024*100vw);
+    line-height: calc(16/1024*100vw);
   }
 }

@@ -3,7 +3,7 @@
   width: calc(984/1280*100%);
   color: white;
   padding-top: calc(56/1280*100%);
-  margin: auto;
+  margin: 0 auto;
   flex-direction: column;
 }
 
@@ -17,13 +17,14 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .page__lead {
     padding-top: calc(48/768*100%);
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page__lead {
-    padding-top: calc(48/1024*100%);
     width: calc(928/1024*100%);
+    padding-top: calc(48/1024*100%);
   }
 }
 

@@ -4,21 +4,19 @@
   gap: 48px 40px;
   margin-bottom: calc(80/1280*100%);
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-  "places__title" "places__url"
-  "places__image" "places__text";
 }
 
 @media screen and (max-width: 767px) {
   .places__place {
     gap: 32px;
     grid-template-columns: 1fr;
-    margin-bottom: calc(50/320*100);
+    margin-bottom: calc(50/320*100%);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .places__place {
+    margin-bottom: calc(73/720*100%);
     gap: 48px 28px;
   }
 }
@@ -26,6 +24,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__place {
     gap: 48px 32px;
+    margin-bottom: calc(80/1024*100%);
   }
 }
 

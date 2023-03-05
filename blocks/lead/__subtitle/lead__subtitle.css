@@ -7,7 +7,7 @@
   line-height: 36px;
   text-align: center;
   margin: 0 auto;
-  padding-top: calc(32/1280*100%);
+  padding-top: calc(32/984*100%);
 }
 
 
@@ -35,7 +35,7 @@
     width: calc(640/1024*100%);
     font-size: calc(30/1024*100vw);
     line-height: calc(36/1024*100vw);
-    padding-top: calc(32/1024*100%);
+    padding-top: calc(32/928*100%);
   }
 }
 
