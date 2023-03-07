@@ -10,14 +10,14 @@
 @media screen and (max-width: 767px) {
   .page__lead {
     padding-top: calc(48/320*100%);
-    width: 100%;
+    width: calc(320/320*100%);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .page__lead {
     padding-top: calc(48/768*100%);
-    width: 100%;
+    width: calc(768/768*100%);
   }
 }
 

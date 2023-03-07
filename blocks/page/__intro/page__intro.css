@@ -1,22 +1,23 @@
 .page__intro {
   display: flex;
+  align-self: flex-start;
   flex-direction: column;
   width: calc(984/1280*100%);
+  padding-top: calc(92/1280*100%);
   color: white;
   margin: 0 auto;
-  padding-top: calc(92/1280*100%);
 }
 
 @media screen and (max-width: 767px) {
   .page__intro {
-    width: 100%;
+    width: calc(288/320*100%);
     padding-top: calc(64/320*100%);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .page__intro {
-   width: 100%;
+   width: calc(720/768*100%);
    padding-top: calc(88/768*100%);
   }
 }
